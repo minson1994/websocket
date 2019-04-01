@@ -1,0 +1,82 @@
+{"properties": [
+  {
+    "name": "server.spring.thymeleaf.cache",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.thymeleaf.cache'"
+  },
+  {
+    "name": "server.spring.thymeleaf.encoding",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.thymeleaf.encoding'"
+  },
+  {
+    "name": "server.spring.thymeleaf.mode",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.thymeleaf.mode'"
+  },
+  {
+    "name": "server.spring.thymeleaf.prefix",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.thymeleaf.prefix'"
+  },
+  {
+    "name": "server.spring.thymeleaf.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.thymeleaf.enabled'"
+  },
+  {
+    "name": "server.spring.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.datasource.url'"
+  },
+  {
+    "name": "server.spring.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.datasource.username'"
+  },
+  {
+    "name": "server.spring.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.datasource.password'"
+  },
+  {
+    "name": "server.spring.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'server.spring.datasource.driver-class-name'"
+  },
+  {
+    "name": "redis.host",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.host'"
+  },
+  {
+    "name": "redis.port",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.port'"
+  },
+  {
+    "name": "redis.timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.timeout'"
+  },
+  {
+    "name": "redis.pool.max-active",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.pool.max-active'"
+  },
+  {
+    "name": "redis.pool.min-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.pool.min-idle'"
+  },
+  {
+    "name": "redis.pool.max-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.pool.max-idle'"
+  },
+  {
+    "name": "redis.pool.max-wait",
+    "type": "java.lang.String",
+    "description": "A description for 'redis.pool.max-wait'"
+  }
+]}

@@ -1,0 +1,42 @@
+server:
+  #端口号设置
+  port: 94
+  #Tomcat 编码字符集设置
+  tomcat:
+    uri-encoding: utf-8
+    max-http-post-size: 104857600
+  #上下文设置(项目前缀)
+  servlet:
+    context-path: /websocket
+    
+    
+spring:  
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf: 
+      cache:  false
+      encoding: UTF-8
+      mode: HTML5
+      prefix: http://127.0.0.1/mechat/page/
+      #prefix: classpath:/static/page/
+      enabled: true
+      
+mybatis-plus:
+  mapper-locations: classpath:mapper.main.*.xml
+  type-aliases-package: com.example.demo.*.entity
+  configuration:
+    map-underscore-to-camel-case: false
+    
+    
+redis:
+  host: 127.0.0.1
+  port: 6379
+  timeout: 1000
+  pool:
+   max-active: 8
+   min-idle: 0
+   max-idle: 8
+   max-wait: -1
