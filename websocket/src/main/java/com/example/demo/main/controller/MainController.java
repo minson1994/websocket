@@ -22,21 +22,7 @@ public class MainController {
 		model.addAttribute("css", "/pro/main/css.html");
 		return "main.html";
 	}
-	
-	/**
-	 * 聊天页面
-	 * @param model
-	 * @return
-	 */
-	@RequestMapping("/min")
-	public String indexMin(Model model) {
-		model.addAttribute("u_body", "/pro/main/u_body.html");
-		model.addAttribute("f_body", "/pro/main/f_body.html");
-		model.addAttribute("chat", "/pro/main/chat.html");
-		model.addAttribute("js", "/pro/main/js.html");
-		model.addAttribute("css", "/pro/main/css.html");
-		return "mainMin.html";
-	}
+
 	
 	/**
 	 * 进入异常页面
